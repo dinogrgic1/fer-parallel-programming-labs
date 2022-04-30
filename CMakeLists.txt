@@ -17,3 +17,6 @@ target_link_libraries(pi PRIVATE MPI::MPI_C)
 
 add_executable(lab1 lab1/lab1.c)
 target_link_libraries(lab1 PRIVATE MPI::MPI_C)
+
+add_executable(lab2 lab2/lab2.c)
+target_link_libraries(lab2 PRIVATE MPI::MPI_C)
